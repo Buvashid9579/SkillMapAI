@@ -417,7 +417,9 @@ if __name__ == "__main__":
     port = int(os.environ.get("PORT", 7860))
 
     demo.launch(
-        server_name="0.0.0.0",
-        server_port=port,
-        show_error=True
-    )
+    server_name="0.0.0.0",
+    server_port=port,
+    theme=theme,
+    css=open("styles.css").read(),
+    show_error=True
+)
