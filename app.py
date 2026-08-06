@@ -1,3 +1,4 @@
+import os
 import traceback
 import gradio as gr
 import time
@@ -413,10 +414,10 @@ Your live jobs will appear here.
 # =====================================================
 
 if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 7860))
 
     demo.launch(
-        theme=theme,
-        css=open("styles.css").read(),
-        debug=True,
+        server_name="0.0.0.0",
+        server_port=port,
         show_error=True
     )
