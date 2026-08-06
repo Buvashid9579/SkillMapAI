@@ -142,3 +142,60 @@ textarea{
     }
 
 }
+
+/* =========================================================
+   RESPONSIVE DESIGN
+========================================================= */
+
+@media (max-width: 768px) {
+
+    .gradio-container{
+        width:100% !important;
+        max-width:100% !important;
+        padding:15px !important;
+    }
+
+    .hero{
+        padding:20px;
+    }
+
+    .hero h1{
+        font-size:32px;
+    }
+
+    .hero h2{
+        font-size:18px;
+    }
+
+    .hero p{
+        font-size:15px;
+    }
+
+    button{
+        width:100%;
+    }
+
+    input,
+    textarea{
+        font-size:16px !important;
+    }
+
+    .footer{
+        padding:20px 10px;
+    }
+
+}
+
+/* Stack all Gradio rows on mobile */
+
+@media (max-width:768px){
+
+    .gr-row{
+        flex-direction:column !important;
+    }
+
+    .gr-column{
+        width:100% !important;
+    }
+
+}
