@@ -28,3 +28,17 @@ Thumbs.db
 build/
 dist/
 *.egg-info/
+
+# Environment Variables
+.env
+
+# Virtual Environment
+venv/
+.venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
