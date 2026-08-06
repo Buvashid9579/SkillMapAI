@@ -51,6 +51,7 @@ def search_jobs(skill, location, limit=10):
         print("API Error :", e)
         return []
 
+
     # -------------------------------------------------------
     # Retry without location if nothing found
     # -------------------------------------------------------
@@ -75,6 +76,8 @@ def search_jobs(skill, location, limit=10):
 
         except Exception:
             pass
+
+        
 
     jobs = []
 

@@ -1,15 +1,13 @@
+# Environment Variables
+.env
+
 # Virtual Environment
 venv/
 .venv/
 
-# Environment Variables
-.env
-
 # Python Cache
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
 
 # VS Code
 .vscode/
@@ -21,24 +19,10 @@ Thumbs.db
 # Logs
 *.log
 
-# Pytest
+# Test Cache
 .pytest_cache/
 
 # Build Files
 build/
 dist/
 *.egg-info/
-
-# Environment Variables
-.env
-
-# Virtual Environment
-venv/
-.venv/
-
-# Python Cache
-__pycache__/
-*.pyc
-
-# VS Code
-.vscode/
