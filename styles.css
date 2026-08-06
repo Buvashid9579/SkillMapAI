@@ -156,19 +156,23 @@ textarea{
     }
 
     .hero{
-        padding:20px;
+        padding:18px;
+        margin-bottom:15px;
     }
 
     .hero h1{
-        font-size:32px;
+        font-size:34px;
+        line-height:1.2;
     }
 
     .hero h2{
-        font-size:18px;
+        font-size:20px;
+        margin:8px 0;
     }
 
     .hero p{
-        font-size:15px;
+        font-size:14px;
+        line-height:1.5;
     }
 
     button{
