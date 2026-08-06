@@ -20,7 +20,7 @@ An AI-powered career guidance platform that provides personalized career insight
 
 ### Home Page
 
-![Home](assets/homepage.png)
+![Home](assets/Homepage.png)
 
 ### AI Career Report
 
@@ -28,7 +28,7 @@ An AI-powered career guidance platform that provides personalized career insight
 
 ### Live Jobs
 
-![Jobs](assets/jobs.png)
+![Jobs](assets/LiveJobs.png)
 
 ---
 
