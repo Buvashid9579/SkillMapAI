@@ -1,0 +1,207 @@
+/* =========================================================
+   BODY
+========================================================= */
+
+body {
+    background: #F8FAFC;
+    font-family: "Segoe UI", sans-serif;
+}
+
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.hero {
+
+    text-align: center;
+
+    padding: 35px;
+
+    margin-bottom: 20px;
+
+    border-radius: 18px;
+
+    background: linear-gradient(
+        135deg,
+        #2563EB,
+        #3B82F6
+    );
+
+    color: white;
+
+    box-shadow: 0 12px 30px rgba(0,0,0,.12);
+
+}
+
+.hero h1{
+
+    font-size:46px;
+
+    margin-bottom:10px;
+
+    font-weight:700;
+
+}
+
+.hero h2{
+
+    font-size:24px;
+
+    font-weight:500;
+
+    margin-bottom:15px;
+
+}
+
+.hero p{
+
+    font-size:17px;
+
+    opacity:.95;
+
+}
+
+
+/* =========================================================
+   BUTTON
+========================================================= */
+
+button{
+
+    border-radius:12px !important;
+
+    font-weight:600 !important;
+
+    transition:.25s;
+
+}
+
+button:hover{
+
+    transform:translateY(-2px);
+
+}
+
+
+/* =========================================================
+   TEXTBOX
+========================================================= */
+
+textarea,
+input{
+
+    border-radius:12px !important;
+
+}
+
+
+/* =========================================================
+   CARDS
+========================================================= */
+
+.gr-box{
+
+    border-radius:16px !important;
+
+}
+
+.gr-group{
+
+    border-radius:16px !important;
+
+}
+
+
+/* =========================================================
+   REPORT
+========================================================= */
+
+.prose{
+
+    font-size:16px;
+
+    line-height:1.7;
+
+}
+
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+.footer{
+
+    text-align:center;
+
+    margin-top:40px;
+
+    padding:25px;
+
+    color:#64748B;
+
+    font-size:15px;
+
+}
+
+.footer h2{
+
+    color:#2563EB;
+
+}
+
+
+/* =========================================================
+   SCROLL BAR
+========================================================= */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#94A3B8;
+
+    border-radius:20px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+    background:#64748B;
+
+}
+
+
+/* =========================================================
+   ANIMATION
+========================================================= */
+
+.hero{
+
+    animation:fadeIn .8s ease;
+
+}
+
+@keyframes fadeIn{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(-20px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
